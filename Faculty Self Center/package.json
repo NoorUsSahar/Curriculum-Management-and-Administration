@@ -1,0 +1,40 @@
+{
+  "name": "curriculum_management_sys",
+  "version": "1.0.0",
+  "description": "Final year project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Noor us Sahar",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "material-ui-image": "^3.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.9",
+    "node-sass": "^4.14.1",
+    "nodemailer": "^6.4.11",
+    "react-big-calendar": "^0.28.1",
+    "react-calendar": "^3.1.0",
+    "react-editext": "^3.17.1",
+    "react-moment": "^1.0.0",
+    "reactjs-popup": "^2.0.4",
+    "request": "^2.88.2",
+    "survey-react": "^1.8.9",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
